@@ -41,6 +41,7 @@ for /f "tokens=2 delims==" %%A in ('wmic baseboard get serialnumber /format:valu
 if not exist "%temp%\auth.txt" echo An error has occured. Please try again. & timeout /t 3 >nul & exit /b
 set hwid=%board%%uuid%%numb%
 find "%hwid%" %temp%\auth.txt >nul & goto check
+:: Next line so the previous line cant be commented out and bypass auth.
 exit /b
 
 
