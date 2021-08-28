@@ -10,7 +10,7 @@
 @echo off
 
  :check
-ping www.google.com -n 1 -w 1000 >nul
+ping [PASTEBIN] -n 1 -w 1000 >nul
 if errorlevel 1 (echo An error has occured. Please connect to internet and try again. & timeout /t 3 >nul & exit /b) else (goto :connected)
 
  :connected
