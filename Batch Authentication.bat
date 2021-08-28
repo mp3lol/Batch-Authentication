@@ -2,7 +2,7 @@
 :: It's not revolutionary, or anything. I just made it for fun.
 :: Replace '[PASTEBIN]' with your raw pastebin link using ctrl+h.
 :: Make sure your pastebin is editable and you seperate HWID's per line.
-:: Created by mp3#9999 on Discord
+:: Created by mp3#0253 on Discord
 
 
 ::---------------------------------------------------------------------------------------------------------
